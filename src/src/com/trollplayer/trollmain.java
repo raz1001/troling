@@ -149,9 +149,9 @@ public class trollmain extends JavaPlugin implements Listener{
 			}
 		}else if(cmd.getName().equalsIgnoreCase("troling")){
 			String[] Messages = new String[3];
-			Messages[0] = ChatColor.DARK_PURPLE + "Coder "+ChatColor.WHITE+"-"+ChatColor.GOLD+" Razdom";
-			Messages[1] = ChatColor.DARK_PURPLE + "Ideas "+ChatColor.WHITE+"-"+ChatColor.GOLD+" BeatsDJ";
-			Messages[2] = ChatColor.DARK_PURPLE + "Tester "+ChatColor.WHITE+"-"+ChatColor.GOLD+" dannycool1031";
+			Messages[0] = ChatColor.DARK_PURPLE + "Main Coder "+ChatColor.WHITE+"-"+ChatColor.GOLD+" Razdom";
+			Messages[1] = ChatColor.DARK_PURPLE + "Main Ideas "+ChatColor.WHITE+"-"+ChatColor.GOLD+" BeatsDJ";
+			Messages[2] = ChatColor.DARK_PURPLE + "Main Tester "+ChatColor.WHITE+"-"+ChatColor.GOLD+" dannycool1031";
 			sender.sendMessage(Messages);
 			return true;
 		}
